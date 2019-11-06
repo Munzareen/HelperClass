@@ -7,7 +7,58 @@ Pod::HelperClassPod - This is a helper for ios.
 v1.0.1
 
 # DESCRIPTION
-This is a helper pod in which you will found alot of helper method of api calls, utility methods, date formatter and alot more.
+This is a helper pod in which you will found alot of helper method, mentioned below:
+
+`1.  isInternetAvailable()`
+
+`2.  validateEmail(enteredEmail:String)`
+
+`3.  showToast(message: String, controller: UIViewController)`
+
+`4.  ConvertHexColorToUIColor (hex:String)`
+
+`5.  getPastTime(dateStr : String,dateFormat : String)`
+
+`6.  getFormattedDate(strDate: String , currentFomat:String, expectedFromat: String)`
+
+`7.  isValidPassword(passwordStr:String?)`
+
+`8.  Request_Api(url:String, methodType : HTTPMethod,parameters:Parameters,isHeaderIncluded:Bool, headers:HTTPHeaders, completion: @escaping (_ result: DataResponse<Any>) -> Void)`
+
+`9.  Request_Api_Raw_Data(url:String, methodType : HTTPMethod,parameters:Parameters,isHeaderIncluded:Bool, headers:HTTPHeaders, completion: @escaping (_ result: DataResponse<Any>) -> Void)`
+
+`10. RequestApiSingleImage(url:String, imageParamKey:String,imageData:Data, parameters:Parameters,isHeaderIncluded:Bool, headers:HTTPHeaders, completion: @escaping (_ result: DataResponse<Any>) -> Void)`
+
+`11. RequestApiMultipleImages(url:String,imageParamKey:String, arrayImageData:NSMutableArray, parameters:Parameters,isHeaderIncluded:Bool, headers:HTTPHeaders, completion: @escaping (_ result: DataResponse<Any>) -> Void)`
+
+`12. ConvertImageIntoData(image : UIImage)`
+
+`13. ConvertDataIntoImage(data : Data)`
+
+`14. ImageEncodingBase64(image : UIImage)`
+
+`15. ImageDecodingBase64(baseStr : String)`
+
+`16. shareLinkToAllApps(link : String, msg : String, vc: UIViewController)`
+
+`17. getUUID()`
+
+`18. getAppVersion()`
+
+`19. getAppBuildNumber()`
+
+`20. getScreenSize(isWidth : Bool, isHeight : Bool)`
+
+`21. getTextViewHeight(textview : UITextView)`
+
+`22. getUIViewHeightWidth(isWidth : Bool, isHeight : Bool,view : UIView)`
+
+`23. StringfromBase64(str : String)`
+
+`24. StringtoBase64(str : String)`
+
+`25. showAlertMessage(title : String, msg:String,btnTitle : String,vc : UIViewController)`
+
 
 # INSTALLATION
 `pod 'HelperClassPod'`
