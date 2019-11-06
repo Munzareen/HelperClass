@@ -63,6 +63,13 @@ This is a helper pod in which you will found alot of helper method, mentioned be
 # INSTALLATION
 `pod 'HelperClassPod'`
 
+# How To Use
+Import this 
+`import HelperClassPod`
+
+and call any method like this
+
+`SharedHelper().isInternetAvailable()`
 
 # AUTHORS
 This version is by Munzareen Atique <munzareenatique@gmail.com>.
